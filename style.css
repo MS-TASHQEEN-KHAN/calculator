@@ -1,0 +1,49 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+html,body{height: 100%;
+width: 100%;
+background-image: url(./pngtree-vector-background-of-scientific-and-technological-system-for-calculating-complex-data-image_1298991.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;}
+
+.calculator{width: 550px;
+height: 700px;
+background-color: rgb(3, 90, 124);
+border-radius: 30px;
+position: absolute;
+top: 10%;
+left: 10%;
+box-shadow: 10px 10px 10px rgb(3, 90, 124), -10px -10px 10px rgb(3, 90, 124);}
+
+.calculator .upper{width: 480px;
+align-items: center;
+background-color: skyblue;
+border-radius: 30px;
+margin: 35px;
+padding: 20px 10px 10px 10px;
+line-height: 50px;
+text-align: right;
+box-shadow: 5px 5px 5px skyblue, -5px -5px 5px skyblue;}
+
+.calculator .upper>h1{font-size: 45px;
+font-weight: 700;}
+
+.calculator .lower{width: 480px;
+margin: 39px;
+margin-top: 0px;}
+
+.lower>button{background-color: rgb(3, 59, 83);
+width: 95px;
+height: 75px;
+margin: 10px;
+border: none;
+border-radius: 20px;
+font-size: 35px;
+font-weight: 500;
+color: white;}
+
+.lower>button:hover{border: 3px solid white;}
